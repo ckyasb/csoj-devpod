@@ -1,7 +1,45 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+*.local
+
+# Node / Next.js
 node_modules/
 .next/
 out/
 dist/
 coverage/
-*.log
+.turbo/
+.vercel/
+
+# pnpm
+.pnpm-store/
+
+# Go build and test output
+*.test
+*.out
+coverage.out
 /CSOJ/CSOJ
+/CSOJ/bin/
+/CSOJ/dist/
+
+# Runtime data
+tmp/
+temp/
+*.pid
