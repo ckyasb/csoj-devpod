@@ -4,8 +4,8 @@ configs
 storage
 contests
 
-CSOJ
-CSOJ.exe
+/CSOJ
+/CSOJ.exe
 
 venv
 
