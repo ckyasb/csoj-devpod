@@ -9,7 +9,11 @@ CSOJ.exe
 
 venv
 
-internal/embedui/sites
+internal/embedui/sites/*
+!internal/embedui/sites/admin/
+!internal/embedui/sites/user/
+!internal/embedui/sites/admin/.index.html
+!internal/embedui/sites/user/.index.html
 
 
 *.log
